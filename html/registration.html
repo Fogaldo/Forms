@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/registration.css">
+    <title>Registration</title>
+  </head>
+  <body>
+    <div class="modal">
+      <span class="modal_close" title="Close modal">X</span>
+      <form class="form registration-form" action="#">
+        <div class="form-content registration-form-content"></div>
+        <h1 class="form-headline registration-form__headline">Регистрация</h1>
+        
+        <label class="label registration-form__description" for="name">Имя</label>
+        <input id="name" class="input registration-form__input" type="text" name="name" placeholder="Введите ваш ник" required>
+        
+        <label class="label registration-form__description" for="email">Email</label>
+        <input id="email" class="input registration-form__input" type="text" placeholder="Введите вашу почту" name="email"
+               required>
+        
+        <label class="label registration-form__description" for="password">Пароль</label>
+        <input id="password" class="input registration-form__input" type="password" placeholder="Введите ваш пароль"
+               name="password"
+               required>
+        
+        <p class="registration-form__terms">Создавая учетную запись, вы соглашаетесь с нашим <a class="link form-terms__link" href="#">Условием и
+          конфиденциальностью</a></p>
+        
+        <div class="clear-fix">
+          <button type="submit" class="btn form_btn">Вход</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
